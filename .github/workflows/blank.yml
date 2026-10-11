@@ -1,0 +1,13 @@
+name: Mohd Haris
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: welcome
+        run: echo "Thank you, from Haris"
